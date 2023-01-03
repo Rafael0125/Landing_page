@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="pt-br">
+    <head>
+    
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+        <script src="https://kit.fontawesome.com/1ca618ad9a.js" crossorigin="anonymous"></script>
+
+        <!-- Estilo CSS -->
+        <style>
+            /* Estilos Gerais */
+            body{
+                font-family: 'Poppins';font-size: 22px;        
+                color: #ffffff; 
+            }
+            i{
+                color: rgb(0, 0, 0);                
+            }
+
+            /* Estilos Corpo */
+            section{
+                margin-bottom: 1em;
+            }
+            #botaoRegistro{
+                border-radius: 20px;
+                padding: 8px 40px;
+            }
+            .textoTitulo{
+                font-weight: bold;
+                font-size: 26px;
+            }
+            section{
+                margin-top: 2em;
+            }
+            #caixaTexto{
+                text-align: center;
+            }
+            footer{
+                text-align: end;
+                margin: 3em 0px 0px 0px;               
+                text-indent: 10px;
+                font-size: 32px;    
+                padding-right: 2em;            
+            }
+
+
+
+            /* Media Queries*/
+
+                /* Dispositivos extra small (telefones em modo retrato, com menos de 576px)*/
+                @media (max-width: 575.98px) { 
+                    body{
+                        background: #A020F0 url(imagens/bg-mobile.png) no-repeat;             
+                    }
+                    #botaoRegistro{    
+                        margin-top: 3px;
+                        padding: 1em 6em;
+                        border-radius: 40px;                                            
+                    }                      
+                    footer{
+                        text-align: center;
+                        padding-right: 1em;          
+
+                    }
+                }
+
+                /* Dispositivos small (telefones em modo paisagem, com 576px ou mais)*/
+                @media (min-width: 576px) and (max-width: 767.98px) {
+                    body{
+                        background: #A020F0 url(imagens/bg-mobile.png) no-repeat;             
+                    }
+                    #botaoRegistro{    
+                        margin-top: 3px;
+                        padding: 1em 6em;
+                        border-radius: 40px;                                            
+                    }
+                    footer{
+                        text-align: center;
+                    }
+                    #botaoRegistro{    
+                        margin-top: 3px;
+                        padding: 1em 6em;
+                        border-radius: 40px;                                            
+                    }
+                    footer{
+                        text-align: center;
+                        padding-right: 1em;            
+
+                    }
+                }
+
+                /* Dispositivos médios (tablets com 768px ou mais)*/
+                @media (min-width: 768px) and (max-width: 991.98px) {
+                    body{
+                        background: #A020F0 url(imagens/bg-desktop.png) no-repeat;             
+                    }
+                }
+
+                /* Dispositivos large (desktops com 992px ou mais)*/
+                @media (min-width: 992px) and (max-width: 1199.98px) {
+                    body{
+                        background: #A020F0 url(imagens/bg-desktop.png) no-repeat;             
+                    }
+                }
+
+                /* Dispositivos extra large (desktops grandes com 1200px ou mais)*/
+                @media (min-width: 1200px) {
+                    body{
+                        background: #A020F0 url(imagens/bg-desktop.png) no-repeat;             
+                    }
+                }
+
+
+                /* Formatação do rodapé, criada por FrontEnd Mentor*/
+                .attribution { font-size: 11px; text-align: center; }
+                .attribution a { color: hsl(228, 45%, 44%); }
+
+
+        </style>
+
+
+    
+
+        <title>Landing Page com área de introdução</title>
+    </head>
+    <body>
+        <div class="container">
+            <header class="row ">
+                <div class="col-md-12 "> <!-- Logo -->
+                    <a href=""><img src="imagens/logo.png" ></a>    
+                </div> <!-- Logo -->    
+            </header>
+            <section>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <img src="imagens/illustration-mockups.png" class="img-fluid">
+                        </div>
+                        <div class="col-md-5 ">
+                            <div id="caixaTexto" class="align-self-center">
+                                <span class="textoTitulo">Build The Community</span> <br>
+                                <span class="textoTitulo">Your Fans Will Love</span>
+                                <p>
+                                    Huddle re-imagines the way we build communities.You have a voice, but does your audience. Create connections with your users as you engage in genuine discussion
+                                </p>
+                                <a href="" id="botaoRegistro" class="btn btn-light  ">
+                                    Register
+                                </a>        
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <footer class="row ">
+                <div id="icones" class="">
+                    <i class="fa-brands fa-instagram "></i>
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                </div>
+                <p class="attribution mt-5">
+                    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+                    Coded by <a href="#">Rafael Navarro</a>.
+                </p>
+            
+            </footer>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    </body>
+</html>
