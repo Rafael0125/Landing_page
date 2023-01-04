@@ -7,5 +7,13 @@ O desafio é criar uma Landing Page com um botão de registro.
 * CSS 3
 * Bootstrap
 
+### Prints das telas 
 
+#### Versão Desktop 
+
+![PrintMobile](imagens/print_landing_page_desktop.png)
+
+#### Versão Mobile 
+
+![PrintMobile](imagens/print_landing_page_mobile.png)
 
